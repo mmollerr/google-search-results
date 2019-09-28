@@ -40,13 +40,19 @@ input[type=submit] {
 .container2 {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-left;
+	justify-content: left;
 	margin-left: 150px;
+	align-items: baseline;
 }
 
 a {
 	text-decoration: none;
-	margin-left: 20px;
 	font-family: arial;
 	color: #a9a9a9;
+	font-size: 12px;
+}
+
+.icons {
+	height: 13px;
+	width: 13px;
 }
