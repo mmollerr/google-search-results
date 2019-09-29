@@ -1,12 +1,23 @@
+* {
+	font-family: arial;
+}
+
 .container1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
 }
 
 .googlesquare {
 	margin-left: auto;
 	padding: 10px 10px;
+}
+
+.googlesquare:hover {
+    border-radius: 50%;
+	background-color:rgb(148, 148, 148);
+	margin: 0;
 }
 
 .logo {
@@ -30,10 +41,10 @@ input[type=text] {
 }
 
 input[type=submit] {
-	border-radius: 12px;
+	border-radius: 10px;
 	padding: 10px 10px;
 	margin: 10px 10px;
-	background-color: #008CBA;
+	background-color: rgb(29, 95, 236);
 	color: white;
 }	
 
@@ -45,14 +56,132 @@ input[type=submit] {
 	align-items: baseline;
 }
 
-a {
+.container2 a {
 	text-decoration: none;
-	font-family: arial;
-	color: #a9a9a9;
+	color: #524C4C;
 	font-size: 12px;
 }
 
+.container2 a:hover {
+	color: rgb(29, 95, 236);
+}
 .icons {
 	height: 13px;
 	width: 13px;
+}
+
+.icons:hover {
+	color: rgb(29, 95, 236);
+}
+#seconds {
+	text-decoration: none;
+	color: #524C4C;
+	font-size: 14px;
+	margin-left: 150px;
+}
+
+.result {
+	margin-left: 150px;
+	margin-right: 500px;
+}
+
+#blue {
+	color: rgb(5, 5, 151);
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#blue:hover {
+	text-decoration: underline;
+}
+
+#green {
+	text-decoration: none;
+	color: green;
+}
+
+#gray {
+	color: #524c4c;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+.people-ask {
+    margin-left: 150px;
+    width: 800px;
+    border: 1px solid #dfe1e5;
+    border-radius: 15px;
+}
+.ask-title {
+	font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    height: 15px;
+    font-weight: normal;
+}
+.grid-container a {
+    display: block;
+    color: #222;
+    font-weight: normal;
+    padding: 10px;
+	border-top: 1px solid #dfe1e5;
+	text-decoration: none;
+}
+.related-searches {
+	margin-left: 150px;
+}
+
+#related-searches{
+	font-size: 20px;
+}
+.row {
+	display: flex;
+  }
+  
+.column {
+	flex: unset;
+	min-width: 300px;
+  }
+#search {
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(5, 5, 151);
+}
+
+#search:hover {
+	text-decoration: underline;
+}
+.page-results {
+	display: flex;
+	justify-content: left;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+.footer {
+	background-color: rgb(240, 240, 240);
+	overflow: hidden;
+	bottom: 0;
+	width: 100%;
+  }
+  
+  .footer a {
+	float: left;
+	display: block;
+	color: #524C4C;
+	padding: 10px 10px;
+	text-decoration: none;
+	margin-left: 150px;
+	margin-right: -130px;
+	font-size: 14px;
+	line-height: 0;
+  }
+  
+#location {
+	margin-left: 150px;
+	color: #524C4C;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 0;
 }
